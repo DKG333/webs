@@ -40,11 +40,11 @@ body .navbar__container{
 }
 
 #banner{
-    background:linear-gradient(rgba(0, 0, 0, 0.5), #000000),  url(images/deanface.jpg);
+    background:linear-gradient(rgba(0,0,0,0.5), #f01804),  url(images/deanface.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
-    border-top: rgb(0, 0, 0);
+    border-top: red;
     
     
     font-family: 'Bungee Spice', cursive;
@@ -108,10 +108,8 @@ body .navbar__container{
 .banner-btn a:hover {
     color: rgb(255, 255, 255);
 }
-@media only screen and (width:400px){
-    html,body{
-        margin: 0;
-        padding: 0;
+@media(width:400px){
+    #banner{
         overflow-x: hidden;
     }
 }
@@ -179,14 +177,12 @@ body .navbar__container{
     border-radius: 10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
     html{
         scroll-behavior: smooth;
-        overflow-x: hidden;
+        /* overflow-x: hidden;
         margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
+        padding: 0; */
     }
     .navbar {
         flex-direction: column;
