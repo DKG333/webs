@@ -34,6 +34,3 @@ function togglepopup2(){
 function togglepopup3(){
       document.getElementById("popup-3").classList.toggle("active");
 }
-// function servicetogglepopup(){
-//       document.getElementById("service-popup").classList.toggle("active");
-// }
