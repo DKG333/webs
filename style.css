@@ -1453,6 +1453,14 @@ hr{
     height: 100%;
     background-position: center;
 }
+
+.gallerypage{
+    
+    align-items: center;
+    justify-content: center;
+    padding-left: 500px;
+
+}
 @media only screen and (max-width:900px){
     .hi-slide .hi-next{
         left: -30px;
@@ -1513,10 +1521,26 @@ hr{
         object-position:center ;
         padding-right: -200px;
     }
+    /* .gallerypage{
+    
+        align-items: center;
+        justify-content: center;
+        padding-left: -20px;
+        padding-right: 500px;
+    
+    } */
 
 }
 
- 
+@media only screen and  (max-width:900px){
+    .gallerypage{
+    
+        align-items: center;
+        justify-content: center;
+        padding-left: 350px;
+    
+    }
+}
 
 
 
