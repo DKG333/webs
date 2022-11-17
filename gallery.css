@@ -2,6 +2,7 @@ body{
     justify-content: center;
     text-align: center;
     font-family: sans-serif;
+    background-color: black;
 }
 h1{
     text-align: center;
@@ -25,8 +26,9 @@ h1{
 
 }
 @media only screen  and (max-width:400px){
-    .gallery img{
+    .gallery {
         flex-direction: column;
+        background-color: green;
     }
     
 }
