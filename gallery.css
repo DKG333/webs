@@ -24,3 +24,9 @@ h1{
     filter: grayscale(0%);
 
 }
+@media only screen  and (max-width:400px){
+    .gallery img{
+        flex-direction: column;
+    }
+    
+}
