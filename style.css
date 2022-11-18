@@ -1465,6 +1465,7 @@ hr{
 @media only screen and (max-width:900px){
     #gallery{
   z-index: 10;
+  display: none;
     }
     .hi-slide .hi-next{
         left: -30px;
