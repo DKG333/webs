@@ -34,3 +34,18 @@ function togglepopup2(){
 function togglepopup3(){
       document.getElementById("popup-3").classList.toggle("active");
 }
+
+
+function togglepopup4(){
+      document.getElementById("service-pop").classList.toggle("active");
+}
+
+
+function togglepopup5(){
+      document.getElementById("service-pop2").classList.toggle("active");
+}
+
+
+function togglepopup6(){
+      document.getElementById("service-pop3").classList.toggle("active");
+}

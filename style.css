@@ -315,7 +315,7 @@ body .navbar__container{
     transform: translate(-50%,-50%) scale(1);
 }
 .service-button{
-    background: url(images/deanface.jpg);
+    background: url(images/ALIW3134.JPG);
     background-size: cover;
     height: 500px;
     width: 500px;
@@ -378,7 +378,7 @@ body .navbar__container{
     transform: translate(-50%,-50%) scale(1);
 }
 .service-button2{
-    background: url(images/deanface.jpg);
+    background: url(images/close.png);
     background-size: cover;
     height: 500px;
     width: 500px;
@@ -391,6 +391,7 @@ body .navbar__container{
     background-repeat: no-repeat;
     padding-left: 207px;
     transition: ease-in-out 60s;
+   
 
 }
 
@@ -437,13 +438,12 @@ body .navbar__container{
 .service-popup3.active .service-overlay3{
     display: block;
 }
-.service-popup3.active .service-content3{
+.service-popup3.active .service-conten3{
     transition: all 300ms ease-in-out;
     transform: translate(-50%,-50%) scale(1);
 }
-
 .service-button3{
-    background: url(images/deanface.jpg);
+    background: url(images/close.png);
     background-size: cover;
     height: 500px;
     width: 500px;
@@ -456,6 +456,7 @@ body .navbar__container{
     background-repeat: no-repeat;
     padding-left: 207px;
     transition: ease-in-out 60s;
+
 
 }
 @media (max-width:600px) {
@@ -750,7 +751,7 @@ hr{
 
 
 .button3{
-    background: url(images/deanface.jpg);
+    background: url(images/ALIW3134.JPG);
     background-size: cover;
     height: 500px;
     width: 500px;
@@ -873,7 +874,7 @@ hr{
 
 
 .button2{
-    background: url(images/deanface.jpg);
+    background: url(images/ALIW3134.JPG);
     background-size: cover;
     height: 500px;
     width: 500px;
@@ -1020,7 +1021,7 @@ hr{
 
 
 .button{
-    background: url(images/deanface.jpg);
+    background: url(images/ALIW3134.JPG);
     background-size: cover;
     height: 500px;
     width: 500px;
@@ -1462,15 +1463,18 @@ hr{
 
 }
 @media only screen and (max-width:900px){
+    #gallery{
+  z-index: 10;
+    }
     .hi-slide .hi-next{
         left: -30px;
-        z-index: 1000;
+        z-index: 10;
     
     }
 
     .hi-slide .hi-prev{
         left: 750px; 
-        z-index: 1000;
+        z-index: 10;
     }
 }
 @media   (max-width:600px) {
