@@ -18,7 +18,7 @@ toggleButton.addEventListener('click', () => {
 //   }
 //   new SmoothScroll('a[href*="#"]', options);
 
-// toggling pop window for packages
+//toggling pop window for packages
 pop_btn = document.querySelector(".button");
 function togglepopup(){
 
@@ -41,11 +41,35 @@ function togglepopup4(){
 }
 
 
-function togglepopup5(){
-      document.getElementById("service-pop2").classList.toggle("active");
-}
 
 
-function togglepopup6(){
-      document.getElementById("service-pop3").classList.toggle("active");
+function opened(){
+      document.getElementById("service-pop1").classList.add("active");
+      
 }
+function closed(){
+      document.getElementById("service-pop1").classList.remove("active");
+      
+      
+}
+function service_opened(){
+      document.getElementById("service-pop2").classList.add("active");
+    
+}
+function service_closed(){
+      document.getElementById("service-pop2").classList.remove("active");
+     
+}
+function service__opened(){
+      document.getElementById("service-pop3").classList.add("active");
+     
+
+}
+function service__closed(){
+      document.getElementById("service-pop3").classList.remove("active");
+     
+      
+}
+const showImage = () => {
+      document.getElementById("first").style.display ='block';
+  }
